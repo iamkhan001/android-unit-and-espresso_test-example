@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.is;
 
 //class to unit test class
 
-public class UtilTest extends TestCase {
+public class UtilTestExample extends TestCase {
     public void testIsEmailValid() {
         String testEmail = "anupamchugh";
         Assert.assertThat(String.format("Email Validity Test failed for %s ", testEmail), Utils.checkEmailForValidity(testEmail), is(true));
