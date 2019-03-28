@@ -10,7 +10,7 @@ import java.util.Date;
 
 import static org.hamcrest.CoreMatchers.is;
 
-//class to unit test
+//class to unit test class
 
 public class UtilTest extends TestCase {
     public void testIsEmailValid() {
